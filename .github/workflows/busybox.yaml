@@ -8,7 +8,7 @@ on:
 name: Build & Sign & Push busybox
 
 env:
-  IMAGE_NAME: busybox
+  IMAGE_NAME: busybox/busybox
   DOCKER_FILE: Dockerfile
   
 jobs:
