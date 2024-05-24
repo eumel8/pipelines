@@ -11,6 +11,6 @@ jobs:
         with:
           token: ${{secrets.TAGEXPIRE}}
           image_name: busybox%2Fbusybox
-          days_treshold: 0
-          protected_tags_regex: "^2.0.0$|^3.0.0$"
+          days_treshold: 1000
+          protected_tags_regex: "^dev$|^latest$"
           #protected_tags_regex: '[23].*'
