@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     name: "expire-tags"
     steps:
-      - uses: eumel8/expire-action@1.0.2
+      - uses: eumel8/expire-action@debug
         with:
           token: ${{secrets.TAGEXPIRE}}
           image_name: busybox%2Fbusybox
